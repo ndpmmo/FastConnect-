@@ -1,0 +1,16 @@
+---
+name: FastConnect
+version: 1.0.0
+main: MrxKun\FastConnect\Main
+api: 5.18.0
+src-namespace-prefix: MrxKun\FastConnect
+commands:
+  fastconnect:
+    description: Quản lý plugin FastConnect
+    usage: "/fastconnect <enable|disable|status>"
+    permission: fastconnect.command
+permissions:
+  fastconnect.command:
+    description: Cho phép sử dụng lệnh FastConnect
+    default: op
+...
